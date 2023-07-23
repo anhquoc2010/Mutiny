@@ -1,0 +1,5 @@
+bricks:
+  bloc_module:
+    path: .bricks/bloc_module
+  bloc:
+    path: .bricks/bloc
