@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mutiny/presentation/auth/views/login_view.dart';
 import 'package:mutiny/presentation/core/views/root_view.dart';
+import 'package:mutiny/presentation/maps/view/maps.view.dart';
 import 'package:mutiny/presentation/splash/splash.dart';
 
 abstract class AppRouter {
@@ -12,6 +13,9 @@ abstract class AppRouter {
 
   // Root
   static const String root = '/root';
+
+  // Maps
+  static const String maps = '/maps';
 
   // static final router = GoRouter(
   //   routes: [
@@ -61,6 +65,12 @@ abstract class AppRouter {
         return MaterialPageRoute(
           builder: (_) {
             return const RootPage();
+          },
+        );
+      case maps:
+        return MaterialPageRoute(
+          builder: (_) {
+            return MapsPage();
           },
         );
       default:

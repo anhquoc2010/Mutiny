@@ -4,6 +4,7 @@ import 'package:mutiny/presentation/core/bloc/root_bloc.dart';
 import 'package:mutiny/presentation/core/widgets/app_bottom_navigation_bar.dart';
 import 'package:mutiny/presentation/core/widgets/slide_lazy_indexed_stack.dart';
 import 'package:mutiny/presentation/home/home.dart';
+import 'package:mutiny/presentation/maps/view/maps.view.dart';
 import 'package:mutiny/presentation/notification/notification.dart';
 import 'package:mutiny/presentation/profile/profile.dart';
 
@@ -32,11 +33,11 @@ class _RootView extends StatelessWidget {
         ) {
           return SlideIndexedStack(
             index: state.currentIndex,
-            children: const [
-              HomePage(),
-              NotificationPage(),
-              NotificationPage(),
-              ProfilePage()
+            children: [
+              MapsPage(),
+              const HomePage(),
+              const NotificationPage(),
+              const ProfilePage()
             ],
           );
         },

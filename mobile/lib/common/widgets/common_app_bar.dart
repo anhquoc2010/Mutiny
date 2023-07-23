@@ -15,6 +15,8 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.titleSpacing = AppSize.titleSpacing,
     this.elevation = 0,
     this.bottomSize = 45,
+    this.leadingWidth,
+    this.leading,
     required this.title,
     this.bottom,
     this.actions = const [],
@@ -33,7 +35,9 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double titleSpacing;
   final double elevation;
   final double bottomSize;
+  final double? leadingWidth;
 
+  final Widget? leading;
   final dynamic title;
   final Widget? bottom;
   final List<Widget> actions;
@@ -63,9 +67,10 @@ class CommonAppBar extends StatelessWidget implements PreferredSizeWidget {
             )
           : null,
       actions: actions,
-      leading: (automaticallyImplyLeading && Navigator.of(context).canPop())
+      leadingWidth: leadingWidth,
+      leading: leading ?? ((automaticallyImplyLeading && Navigator.of(context).canPop())
           ? const CommonBackButton()
-          : null,
+          : null),
     );
   }
 

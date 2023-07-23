@@ -10,6 +10,7 @@ class AppFlavor {
   static Flavor? appFlavor;
 
   static String get apiBaseUrl => const String.fromEnvironment(EnvKeys.baseURL);
+  static String get googleMapApiKey => const String.fromEnvironment(EnvKeys.googleMapApiKey);
 
   static String get title {
     switch (appFlavor) {
