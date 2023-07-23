@@ -5,4 +5,6 @@ abstract class Endpoints {
 
   static String login = '$apiUrl/auth/login';
   static String userInfo = '$apiUrl/auth/me';
+
+  static String geoCode = 'https://maps.googleapis.com/maps/api/geocode/json?key=${AppFlavor.googleMapApiKey}';
 }

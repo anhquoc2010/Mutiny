@@ -4,7 +4,7 @@ import 'package:mutiny/common/theme/text_styles.dart';
 class SheetHeader extends StatelessWidget {
   final String title;
 
-  const SheetHeader({super.key, required this.title});
+  const SheetHeader({super.key, this.title = 'Title'});
 
   @override
   Widget build(BuildContext context) {
