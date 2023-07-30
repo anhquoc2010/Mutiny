@@ -258,12 +258,12 @@ async function CalculateEcoFriendlyPoint(start_location, end_location, search_ti
       const weatherData = await weatherResponse.json();
       const api = weatherData.api/500;
   
-      // get MockDaNangDistrictPolygon.json from local file
-      const MockDaNangDistrictPolygon = require('./MockDanangDistrictPolygonsBoundary.json');
+      // get Magic file from local file
+      const polygon = require('./README.json');
   
       let weatherIndistrict = 0;
   
-      MockDaNangDistrictPolygon.forEach((element) => {
+      polygon.forEach((element) => {
         if (isPointInsidePolygon(lat, lng, element.coordinates)) {
           weatherIndistrict = element.weather/100;
         }
@@ -356,29 +356,29 @@ app.post("/api/saveRouteToDatabaseAndCalculateEcoFriendlyPoint", (req, res) => {
 
 
 // Endpoint to send a notification
-app.post("/sendNotification", (req, res) => {
-    const { token, title, body } = req.body;
+// app.post("/sendNotification", (req, res) => {
+//     const { token, title, body } = req.body;
 
-    const message = {
-        notification: {
-            title: title,
-            body: body,
-        },
-        token: token,
-    };
+//     const message = {
+//         notification: {
+//             title: title,
+//             body: body,
+//         },
+//         token: token,
+//     };
 
-    firebase
-        .messaging()
-        .send(message)
-        .then((response) => {
-            console.log("Notification sent successfully:", response);
-            res.status(200).json({ message: "Notification sent successfully" });
-        })
-        .catch((error) => {
-            console.error("Error sending notification:", error);
-            res.status(500).json({ error: "Failed to send notification" });
-        });
-});
+//     firebase
+//         .messaging()
+//         .send(message)
+//         .then((response) => {
+//             console.log("Notification sent successfully:", response);
+//             res.status(200).json({ message: "Notification sent successfully" });
+//         })
+//         .catch((error) => {
+//             console.error("Error sending notification:", error);
+//             res.status(500).json({ error: "Failed to send notification" });
+//         });
+// });
 
 // Start the server
 app.listen(port, () => {
