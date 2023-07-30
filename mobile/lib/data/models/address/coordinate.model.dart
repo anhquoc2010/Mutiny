@@ -15,6 +15,8 @@ class CoordinateModel {
   final int id;
   final String name;
   final Coordinate? coordinate;
+
+  Map<String, dynamic> toJson() => _$CoordinateModelToJson(this);
 }
 
 @JsonSerializable()
@@ -29,4 +31,6 @@ class Coordinate {
   final double lat;
 
   final double lng;
+
+  Map<String, dynamic> toJson() => _$CoordinateToJson(this);
 }

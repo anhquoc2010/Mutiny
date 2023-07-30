@@ -41,6 +41,7 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   dio: ^5.1.2
+  http: ^0.13.6
   easy_localization: ^3.0.2
   bloc: ^8.1.0
   flutter_bloc: ^8.1.2
@@ -49,11 +50,19 @@ dependencies:
   lottie: ^2.3.2
 
   # For google map and location
-  google_maps_flutter: ^2.2.6
+  google_maps_flutter: ^2.4.0
   google_maps_flutter_platform_interface: ^2.2.6
   google_maps_flutter_android: ^2.4.6
   permission_handler: ^10.2.0
   geolocator: ^9.0.2
+  flutter_polyline_points: ^1.0.0
+
+  # For firebase
+  firebase_core: ^2.12.0
+  firebase_analytics: ^10.4.1
+  firebase_crashlytics: ^3.3.0
+  firebase_messaging: ^14.6.5  
+  flutter_local_notifications: ^15.1.0+1
 
 dev_dependencies:
   flutter_test:
@@ -86,6 +95,8 @@ flavorizr:
         icon: 'assets/icons/launcher/app_icon.png'
       android:
         applicationId: 'com.mutiny.dev'
+        firebase:
+          config: '.firebase/dev/google-services.json'
       ios:
         bundleId: 'com.mutiny.dev'
     staging:
@@ -94,6 +105,8 @@ flavorizr:
         icon: 'assets/icons/launcher/app_icon.png'
       android:
         applicationId: 'com.mutiny.staging'
+        firebase:
+          config: '.firebase/staging/google-services.json'
       ios:
         bundleId: 'com.mutiny.staging'
     prod:
@@ -102,6 +115,8 @@ flavorizr:
         icon: 'assets/icons/launcher/app_icon.png'
       android:
         applicationId: 'com.mutiny.prod'
+        firebase:
+          config: '.firebase/prod/google-services.json'
       ios:
         bundleId: 'com.mutiny.prod'
 
@@ -121,6 +136,7 @@ flutter:
     - assets/locales/
     - assets/images/
     - assets/images/lottie/
+    - assets/traffic.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

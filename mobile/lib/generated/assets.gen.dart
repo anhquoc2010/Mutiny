@@ -84,6 +84,10 @@ class Assets {
   static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsLocalesGen locales = $AssetsLocalesGen();
+  static const String traffic = 'assets/traffic.json';
+
+  /// List of all assets
+  List<String> get values => [traffic];
 }
 
 class AssetGenImage {

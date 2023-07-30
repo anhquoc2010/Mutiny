@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "884850696465",
+    "firebase_url": "https://greennavigator-904c2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "greennavigator-904c2",
+    "storage_bucket": "greennavigator-904c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884850696465:android:8ee2b26b654f5e4306ecb0",
+        "android_client_info": {
+          "package_name": "com.mutiny.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaMI44lCAC3GdOJqfixusODuIax-FjiLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884850696465:android:78a28dc57a18559606ecb0",
+        "android_client_info": {
+          "package_name": "com.mutiny.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaMI44lCAC3GdOJqfixusODuIax-FjiLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884850696465:android:ec44b48d6de2563706ecb0",
+        "android_client_info": {
+          "package_name": "com.mutiny.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaMI44lCAC3GdOJqfixusODuIax-FjiLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884850696465-j181mmub9hccfppdib9n0t8m69n0vk9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

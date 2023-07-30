@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mutiny/presentation/core/bloc/root_bloc.dart';
-import 'package:mutiny/presentation/core/widgets/app_bottom_navigation_bar.dart';
 import 'package:mutiny/presentation/core/widgets/slide_lazy_indexed_stack.dart';
 import 'package:mutiny/presentation/home/home.dart';
 import 'package:mutiny/presentation/maps/view/maps.view.dart';
@@ -33,11 +32,11 @@ class _RootView extends StatelessWidget {
         ) {
           return SlideIndexedStack(
             index: state.currentIndex,
-            children: [
+            children: const [
               MapsPage(),
-              const HomePage(),
-              const NotificationPage(),
-              const ProfilePage()
+              HomePage(),
+              NotificationPage(),
+              ProfilePage()
             ],
           );
         },
@@ -45,7 +44,6 @@ class _RootView extends StatelessWidget {
           return previous.currentIndex != current.currentIndex;
         },
       ),
-      bottomNavigationBar: const AppBottomNavigationBar(),
     );
   }
 }

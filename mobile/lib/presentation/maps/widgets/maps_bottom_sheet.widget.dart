@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:mutiny/common/enums/handle_status.enum.dart';
 import 'package:mutiny/common/theme/text_styles.dart';
 import 'package:mutiny/common/utils/conditional_render_util.dart';
@@ -8,13 +9,24 @@ import 'package:mutiny/presentation/maps/maps.dart';
 import 'package:mutiny/presentation/maps/widgets/list_marker_recycle_bin.widget.dart';
 
 class RecycleBinBottomSheet extends StatelessWidget {
-  const RecycleBinBottomSheet({super.key});
+  const RecycleBinBottomSheet({
+    super.key,
+    required this.destination,
+    required this.polylineCoordinates,
+    required this.getPolyPoints,
+    required this.setDestination,
+  });
+
+  final LatLng destination;
+  final List<LatLng> polylineCoordinates;
+  final Function(MapsState state, List<LatLng> polylineCoordinates) getPolyPoints;
+  final Function(LatLng destination) setDestination;
 
   @override
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
-      initialChildSize: 0.4,
-      minChildSize: 0,
+      initialChildSize: 0.2,
+      minChildSize: 0.2,
       maxChildSize: 0.8,
       expand: false,
       builder: (context, scrollController) {
@@ -48,11 +60,19 @@ class RecycleBinBottomSheet extends StatelessWidget {
                                 ),
                             HandleStatus.success: (_) {
                               return ListMarkerRecycleBins(
-                                recycleBins: state.recycleBins,
+                                destination: destination,
+                                polylineCoordinates: polylineCoordinates,
+                                getPolyPoints: getPolyPoints,
+                                setDestination: setDestination,
                               );
                             }
                           },
-                          fallbackBuilder: (_) => const SizedBox(),
+                          fallbackBuilder: (_) => ListMarkerRecycleBins(
+                            destination: destination,
+                            polylineCoordinates: polylineCoordinates,
+                            getPolyPoints: getPolyPoints,
+                            setDestination: setDestination,
+                          ),
                         );
                       },
                     ),

@@ -1,0 +1,644 @@
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJWVpborQZQjER0U695g5iTsQ",
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJf0pFmuIXQjERJSJ9fMSh_Wg",
+            "types": [
+                "premise"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 16.1067932,
+                    "lng": 108.2508222
+                },
+                "southwest": {
+                    "lat": 16.0511336,
+                    "lng": 108.2012004
+                }
+            },
+            "copyrights": "Map data ©2023",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "9.9 km",
+                        "value": 9866
+                    },
+                    "duration": {
+                        "text": "19 mins",
+                        "value": 1133
+                    },
+                    "duration_in_traffic": {
+                        "text": "20 mins",
+                        "value": 1220
+                    },
+                    "end_address": "34 Đường Thành Vinh 1, Thọ Quang, Sơn Trà, Đà Nẵng, Vietnam",
+                    "end_location": {
+                        "lat": 16.1059642,
+                        "lng": 108.2508222
+                    },
+                    "start_address": "Tầng 4, 174 Lê Đình Lý, Hòa Thuận Nam, Hải Châu, Đà Nẵng 550000, Vietnam",
+                    "start_location": {
+                        "lat": 16.0520189,
+                        "lng": 108.2102259
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 120
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 16.0511336,
+                                "lng": 108.2095897
+                            },
+                            "html_instructions": "Head <b>southwest</b> on <b>Lê Đình Lý</b> toward <b>K182 Lê Đình Lý</b>",
+                            "polyline": {
+                                "points": "cd~`B}xmsSzAbAbAl@NL@?"
+                            },
+                            "start_location": {
+                                "lat": 16.0520189,
+                                "lng": 108.2102259
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "37 m",
+                                "value": 37
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 8
+                            },
+                            "end_location": {
+                                "lat": 16.0512342,
+                                "lng": 108.2092641
+                            },
+                            "html_instructions": "Turn <b>right</b> toward <b>Nguyễn Hữu Thọ</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "q~}`B}tmsS?RADCHM\\"
+                            },
+                            "start_location": {
+                                "lat": 16.0511336,
+                                "lng": 108.2095897
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 608
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 71
+                            },
+                            "end_location": {
+                                "lat": 16.056306,
+                                "lng": 108.2076511
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Nguyễn Hữu Thọ</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "e_~`B{rmsSQ@uATa@B_AHE@aAHeFZcAJe@DE?{@HWDYDOBe@No@Ty@^_@P_@XKJWVGHUf@"
+                            },
+                            "start_location": {
+                                "lat": 16.0512342,
+                                "lng": 108.2092641
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.2 km",
+                                "value": 1195
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 174
+                            },
+                            "end_location": {
+                                "lat": 16.0657009,
+                                "lng": 108.2026565
+                            },
+                            "html_instructions": "At the roundabout, take the <b>2nd</b> exit onto <b>Nguyễn Tri Phương</b>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "}~~`ByhmsSAAA?AAA?A?AAG?G?C?E@C@C@C@ABEDCBABAD?BAB?D?B?D@BKLGLMRCBKLQNUNOHKFSLUNSH_Cn@m@NE@[LQHUFm@Pg@RsAd@_@N{@XEBA?WJKDs@X{An@UNEBwC|AsAt@[NuAn@}Al@C@kBn@aF~A}@XSFi@P"
+                            },
+                            "start_location": {
+                                "lat": 16.056306,
+                                "lng": 108.2076511
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.9 km",
+                                "value": 885
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 189
+                            },
+                            "end_location": {
+                                "lat": 16.0731752,
+                                "lng": 108.2012044
+                            },
+                            "html_instructions": "Continue straight onto <b>Lê Độ</b><div style=\"font-size:0.9em\">Pass by Nha Khoa Quoc Te Viet Sing Da Nang (on the right)</div>",
+                            "maneuver": "straight",
+                            "polyline": {
+                                "points": "sy`aBsilsSEDUZQTGLMh@OHCBi@V]RMFa@Tg@L]JQBE?gA@w@Cu@C}@?YA}@@sA?i@@m@@S@O?YDSDK@MB[Fi@HYFIBSDc@Di@@sDIyBBkAD"
+                            },
+                            "start_location": {
+                                "lat": 16.0657009,
+                                "lng": 108.2026565
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.2 km",
+                                "value": 2250
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 236
+                            },
+                            "end_location": {
+                                "lat": 16.0874073,
+                                "lng": 108.2151215
+                            },
+                            "html_instructions": "Turn <b>right</b> onto <b>Nguyễn Tất Thành</b>/<wbr/><b>Trần Xuân Lê</b><div style=\"font-size:0.9em\">Continue to follow Nguyễn Tất Thành</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "khbaBo`lsSMm@Mk@GWGWS}@a@uA_@oAa@oAEOq@_BWs@Wo@KUQ]Ug@q@uAiAqBCEyAuBKO_@m@c@s@sA_BsAiB_AgAq@s@iAkAcA}@a@_@e@a@k@c@gA}@_Aq@[UUOuAy@AAqAgAuAiAiA_A_@WOOQOOKk@a@k@]QKUI_@Qy@[k@QKCUKeAa@OI[Ku@Y{@Ya@OmAk@_@S_@QkBo@mFqBk@G"
+                            },
+                            "start_location": {
+                                "lat": 16.0731752,
+                                "lng": 108.2012044
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 139
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 14
+                            },
+                            "end_location": {
+                                "lat": 16.0885355,
+                                "lng": 108.2151486
+                            },
+                            "html_instructions": "At the roundabout, take the <b>2nd</b> exit and stay on <b>Nguyễn Tất Thành</b>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "iaeaBownsS?A?A?AAA?A?AA??AACACCCAACAAACACACAC?C?E?C?C@G@EDC@CDuCL"
+                            },
+                            "start_location": {
+                                "lat": 16.0874073,
+                                "lng": 108.2151215
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.0 km",
+                                "value": 1994
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 155
+                            },
+                            "end_location": {
+                                "lat": 16.0989822,
+                                "lng": 108.228166
+                            },
+                            "html_instructions": "Slight <b>left</b> onto <b>Cầu Thuận Phước</b>",
+                            "maneuver": "turn-slight-left",
+                            "polyline": {
+                                "points": "kheaBuwnsS]T]?oEJyCHu@@I?I?I?I?GAK?IAKAI?IAICGAGAIAKCMCICOGOEWKOIOIMKQKWUOOKMMMIMIMGMIOOWwAmDEKCEEMIQO_@O_@Qa@O_@Qa@O_@Qa@O_@Qa@O_@Qa@CI[w@Q_@Oa@a@aAOa@O_@Qa@M[ACOa@Q_@Oa@Oa@O_@a@aAOa@Oa@Q_@Oa@O_@Oa@Qa@O_@Oa@GOm@yAKWOa@O_@[y@O_@Qa@O_@_@cAQ_@Oa@Oa@O_@KUCKQ_@Oa@Oa@a@aAOa@MYAEKYCGOa@Ma@Oa@"
+                            },
+                            "start_location": {
+                                "lat": 16.0885355,
+                                "lng": 108.2151486
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.5 km",
+                                "value": 2472
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 228
+                            },
+                            "end_location": {
+                                "lat": 16.1067932,
+                                "lng": 108.2496627
+                            },
+                            "html_instructions": "<b>Cầu Thuận Phước</b> turns slightly <b>right</b> and becomes <b>Lê Đức Thọ</b>",
+                            "polyline": {
+                                "points": "sigaBaiqsSCWEUg@mAO_@mBwEqAaDi@wA[cA@A?A@C?A?A@A?A?C?A?C?AAA?CAAACAAACAAAAA?AAAACAA?C?AAC?g@_AOYM[{@yB}@}Bc@sAQi@?ASm@[cAo@_CSy@UaAc@{By@eEIc@GWAIIc@Kc@Ic@Ic@Ic@Ic@SgAIc@YaBUqAIc@Ic@EUCMIc@SgAKc@SgAIc@GWCQEQIc@Ic@CQEQKa@Ow@a@kBCOYoAk@iC_@_BS}@AGMo@G]Ga@CIe@iBS{@CGOm@EQK]I]Sy@a@{A[sACM"
+                            },
+                            "start_location": {
+                                "lat": 16.0989822,
+                                "lng": 108.228166
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "49 m",
+                                "value": 49
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 9
+                            },
+                            "end_location": {
+                                "lat": 16.1063792,
+                                "lng": 108.2498117
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "mzhaBkousS~@UJEDA"
+                            },
+                            "start_location": {
+                                "lat": 16.1067932,
+                                "lng": 108.2496627
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 117
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 31
+                            },
+                            "end_location": {
+                                "lat": 16.1059642,
+                                "lng": 108.2508222
+                            },
+                            "html_instructions": "Turn <b>left</b> at Dịch Vụ Vận Chuyển Nhà Cửa Đà Nẵng Giá Rẻ<div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "{whaBipusSJ]Ng@V}@^eA"
+                            },
+                            "start_location": {
+                                "lat": 16.1063792,
+                                "lng": 108.2498117
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "cd~`B}xmsS~CpBPLAXQf@gBVaBLgAJiHf@_CTi@HuAd@yAp@k@d@_@`@Uf@ECMAUBOLGLAP@HSZQV]\\eAn@i@XmD~@iA`@iEzA{Ah@_A^qB~@mGfDsD|AoBp@}IrCu@dAMh@OHm@Zk@Za@Tg@Lo@NmA@eEIiFDc@@m@J_BVc@Jw@Ji@@sDIeEHk@iCu@sCaA_DgBsEeBqDmAwBeBeCcAaBsA_BsAiBqB{BmCiC{DcD{AgAkBiAsFsEqAcAwA_Ag@UqCcAgCcAqBs@oB{@_Ae@yIaDk@I?CCEGMKGOCUBIFCDuCL]T]?iJTsA@qAKe@Iw@UeAk@i@a@[]i@w@wBaFgBiEeCgGiGqOcHiQaGkOq@mBIm@w@mB_EyJi@wA[cA@C@E@IAIMSIEEAk@_AwCmHiAmDkAcEi@{BoB}JsAiHaBgJyAwH_@iBoAcGaBoHa@yB}BcJ}@oDCM~@UPGZeAv@cC"
+            },
+            "summary": "Lê Đức Thọ",
+            "warnings": [],
+            "waypoint_order": []
+        },
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 16.1067932,
+                    "lng": 108.2508222
+                },
+                "southwest": {
+                    "lat": 16.0481984,
+                    "lng": 108.2088943
+                }
+            },
+            "copyrights": "Map data ©2023",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "10.5 km",
+                        "value": 10512
+                    },
+                    "duration": {
+                        "text": "20 mins",
+                        "value": 1224
+                    },
+                    "duration_in_traffic": {
+                        "text": "22 mins",
+                        "value": 1326
+                    },
+                    "end_address": "34 Đường Thành Vinh 1, Thọ Quang, Sơn Trà, Đà Nẵng, Vietnam",
+                    "end_location": {
+                        "lat": 16.1059642,
+                        "lng": 108.2508222
+                    },
+                    "start_address": "Tầng 4, 174 Lê Đình Lý, Hòa Thuận Nam, Hải Châu, Đà Nẵng 550000, Vietnam",
+                    "start_location": {
+                        "lat": 16.0520189,
+                        "lng": 108.2102259
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 168
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 16.0507611,
+                                "lng": 108.2093622
+                            },
+                            "html_instructions": "Head <b>southwest</b> on <b>Lê Đình Lý</b> toward <b>K182 Lê Đình Lý</b><div style=\"font-size:0.9em\">Pass by Số 191 Lê Đình Lý (on the left)</div>",
+                            "polyline": {
+                                "points": "cd~`B}xmsSzAbAbAl@NL@?hAl@"
+                            },
+                            "start_location": {
+                                "lat": 16.0520189,
+                                "lng": 108.2102259
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.0 km",
+                                "value": 960
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 126
+                            },
+                            "end_location": {
+                                "lat": 16.0486714,
+                                "lng": 108.2163074
+                            },
+                            "html_instructions": "At the roundabout, take the <b>5th</b> exit onto <b>Duy Tân</b><div style=\"font-size:0.9em\">Pass by the park (on the left)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "g|}`BosmsSCDAHAH?F?F@F?@BDBFBDDDHFD@DBD?D@J?B?DADABADABCBCBCBCBEBG@E@G?E?G?EAE?AAC?CAAACACAA?AAAA??AAAAAA?`@i@Xa@pCmFFIn@kA~@eBr@sAFMHSP_@?A@IDOIcBSkC?ACc@Gs@AUYyDOgBGs@"
+                            },
+                            "start_location": {
+                                "lat": 16.0507611,
+                                "lng": 108.2093622
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.3 km",
+                                "value": 2328
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 196
+                            },
+                            "end_location": {
+                                "lat": 16.0530867,
+                                "lng": 108.2368567
+                            },
+                            "html_instructions": "Keep <b>left</b> to continue on <b>Trần Thị Lý</b><div style=\"font-size:0.9em\">Pass by Ngã tư Quân Đoàn (on the left in 500m)</div>",
+                            "maneuver": "keep-left",
+                            "polyline": {
+                                "points": "eo}`B}~nsSK@QaDAAEo@WmDG_AAEQyCGw@MiBG{@EaBC{AA]GmAUmCAMGgACs@GsAA]?AEgAGoA?MGcB@U@O@IBGASEs@MkBCc@AECc@ACCY?IC[?AAQAOIaBs@eKC_@Ee@Cc@Ce@Ec@GiAOoBAOAUAMAOAE?ECU?IAE?GCM?GAEAQAMEi@C_@?EAQ?CAG?ECUAI?EAIASM{AMeAIm@Qq@Qg@MWGKCGYg@[a@WWg@e@e@]o@m@wA}@SKcAq@"
+                            },
+                            "start_location": {
+                                "lat": 16.0486714,
+                                "lng": 108.2163074
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.8 km",
+                                "value": 1776
+                            },
+                            "duration": {
+                                "text": "4 mins",
+                                "value": 234
+                            },
+                            "end_location": {
+                                "lat": 16.0683213,
+                                "lng": 108.2323478
+                            },
+                            "html_instructions": "Turn <b>left</b> at Tượng đài Ngũ Hành Sơn onto <b>Ngô Quyền</b>/<wbr/><b>QL14B</b><div style=\"font-size:0.9em\">Pass by Ngân Hàng Nam Á (Namabank) (on the right in 1 km)</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "yj~`Bk_ssSIYs@P_@NYH]FC?q@JiDr@wLdCwBb@sCj@oFjAc@Ha@Ha@Hc@HK@UDa@HI@o@LQDq@Lc@Fw@Pk@L_@H}Bh@aEz@eATkDp@yH~Ay@PuDh@oAb@YJ"
+                            },
+                            "start_location": {
+                                "lat": 16.0530867,
+                                "lng": 108.2368567
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 659
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 99
+                            },
+                            "end_location": {
+                                "lat": 16.0739702,
+                                "lng": 108.2306144
+                            },
+                            "html_instructions": "At Tiệm kem hạnh phúc MINNONO, continue onto <b>Ng. Quyền</b>/<wbr/><b>QL14B</b><div style=\"font-size:0.9em\">Pass by Ngân Hàng Tmcp Nam Việt (Navibank) - Pgd Sơn Trà (on the right)</div>",
+                            "polyline": {
+                                "points": "_jaaBecrsSc@NgDbAyDlAwErAo@Lg@NaAJsANg@FaCXa@DcABM?"
+                            },
+                            "start_location": {
+                                "lat": 16.0683213,
+                                "lng": 108.2323478
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "3.3 km",
+                                "value": 3348
+                            },
+                            "duration": {
+                                "text": "7 mins",
+                                "value": 391
+                            },
+                            "end_location": {
+                                "lat": 16.0992186,
+                                "lng": 108.2466406
+                            },
+                            "html_instructions": "Slight <b>right</b> at Trung Tâm Hành Chính Quận Sơn Trà onto <b>Ng. Quyền</b><div style=\"font-size:0.9em\">Pass by Công ty TNHH TM Điện Lạnh Anh Hoàng (on the left)</div>",
+                            "maneuver": "turn-slight-right",
+                            "polyline": {
+                                "points": "imbaBixqsSKGCAECA?MAy@Ce@Ey@KOCk@KYE_AUw@QqA]kAa@e@WOGYQWOu@g@IGa@]IIuEoE_EyDmCkCmCiC{EuEqDsDyAwAQSy@w@UUaKyJ]]m@o@QOWYw@i@aAe@SIgBq@aBm@_@M}Bs@gC}@]KoAe@w@[oAc@_Cy@g@Ms@UoAc@qDwAiEqAyDqA}@[uDwAg@OgBg@y@WiC{@[KkC{@"
+                            },
+                            "start_location": {
+                                "lat": 16.0739702,
+                                "lng": 108.2306144
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 284
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 25
+                            },
+                            "end_location": {
+                                "lat": 16.1015245,
+                                "lng": 108.2475575
+                            },
+                            "html_instructions": "Keep <b>left</b> to continue on <b>Ng. Quyền</b>/<wbr/><b>QL14B</b><div style=\"font-size:0.9em\">Pass by Công Ty Cổ Phần Nam Phú Lộc Miền Trung (on the right)</div>",
+                            "maneuver": "keep-left",
+                            "polyline": {
+                                "points": "ckgaBo|tsSGPi@QeA_@kAa@iFiBMEOE"
+                            },
+                            "start_location": {
+                                "lat": 16.0992186,
+                                "lng": 108.2466406
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 km",
+                                "value": 476
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 50
+                            },
+                            "end_location": {
+                                "lat": 16.1055585,
+                                "lng": 108.2467672
+                            },
+                            "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto <b>Yết Kiêu</b>/<wbr/><b>QL14B</b><div style=\"font-size:0.9em\">Pass by Be Lien Restaurant (on the right)</div>",
+                            "maneuver": "roundabout-right",
+                            "polyline": {
+                                "points": "oygaBgbusSAEACACAAACAAAACCAACAC?AAC?CAG?C?E?C?C@C@C@A@C@EDA@?@A@?@A@?@e@CW@g@Dk@Di@Hk@HqDn@_@He@JgAPoCh@UD"
+                            },
+                            "start_location": {
+                                "lat": 16.1015245,
+                                "lng": 108.2475575
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 347
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 37
+                            },
+                            "end_location": {
+                                "lat": 16.1067932,
+                                "lng": 108.2496627
+                            },
+                            "html_instructions": "Turn <b>right</b> at Banana Studio onto <b>Lê Đức Thọ</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "wrhaBi}tsSQEOGICECCIe@iBS{@CGOm@EQK]I]Sy@a@{A[sACM"
+                            },
+                            "start_location": {
+                                "lat": 16.1055585,
+                                "lng": 108.2467672
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "49 m",
+                                "value": 49
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 9
+                            },
+                            "end_location": {
+                                "lat": 16.1063792,
+                                "lng": 108.2498117
+                            },
+                            "html_instructions": "Turn <b>right</b>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "mzhaBkousS~@UJEDA"
+                            },
+                            "start_location": {
+                                "lat": 16.1067932,
+                                "lng": 108.2496627
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 117
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 31
+                            },
+                            "end_location": {
+                                "lat": 16.1059642,
+                                "lng": 108.2508222
+                            },
+                            "html_instructions": "Turn <b>left</b> at Dịch Vụ Vận Chuyển Nhà Cửa Đà Nẵng Giá Rẻ<div style=\"font-size:0.9em\">Destination will be on the left</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "{whaBipusSJ]Ng@V}@^eA"
+                            },
+                            "start_location": {
+                                "lat": 16.1063792,
+                                "lng": 108.2498117
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "cd~`B}xmsS~CpBPLhAl@EN?`@JTNLJDZ@TGNOJ[AYIWEEAA^i@bFeJrByDPa@X{@a@uGc@cGW{CK@QaDGq@_@mFi@aIM}CEyB]{EIuAMgDUiGBe@DQYwEQaCwAkTo@eJOaCGo@OoBWsBc@yAUc@]o@s@y@mAcAo@m@wA}@wA}@IYs@Py@Xa@F{E~@oPhDcKvBeARgBZ{AXcAR{AXkK|BeRxDuDh@oAb@}@ZaJpCwErAo@Lg@NaAJ{BVcD^qABWMgAE_BQuCk@iCo@kAa@e@Wi@YmAw@k@e@_FyEwTeTwIwIcN}Mi@i@w@i@aAe@{B{@aC{@}Bs@gC}@mBq@gC_A_Cy@g@McCy@qDwAiEqAwFmB}EgBaD_AeDgAkC{@GPoBq@sIwCGOIKKESAQBOJEJ}@AsAJuARqEx@sGlAq@UmBsHuAwFjA[DAJ]f@eB^eA"
+            },
+            "summary": "Ng. Quyền",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}

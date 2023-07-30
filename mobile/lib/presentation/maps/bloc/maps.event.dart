@@ -9,16 +9,15 @@ abstract class MapsEvent extends Equatable {
 
 class MapsPermissionRequest extends MapsEvent {}
 
-class MapsMarkersGet extends MapsEvent {
-  const MapsMarkersGet();
+class MapsGetDirection extends MapsEvent {
+  const MapsGetDirection({
+    required this.origin,
+    required this.destination,
+  });
+
+  final Polyline origin;
+  final Polyline destination;
 
   @override
-  List<Object?> get props => [];
-}
-
-class MapsProjectsGet extends MapsEvent {
-  const MapsProjectsGet();
-
-  @override
-  List<Object?> get props => [];
+  List<Object?> get props => [origin, destination];
 }

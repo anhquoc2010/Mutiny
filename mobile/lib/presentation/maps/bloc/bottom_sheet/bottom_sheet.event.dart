@@ -8,10 +8,10 @@ abstract class BottomSheetEvent extends Equatable {
 }
 
 class BottomSheetGetRecycleBins extends BottomSheetEvent {
-  const BottomSheetGetRecycleBins({required this.coordinate});
+  const BottomSheetGetRecycleBins();
 
-  final LatLng coordinate;
+  // final LatLng coordinate;
 
   @override
-  List<Object> get props => [coordinate];
+  List<Object> get props => [];
 }
